@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin:0;
+    padding :0;
+}
+body{
+    background: url(Bg.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+.container{
+    color:white;
+    position: absolute;
+    top: 28%;
+    left: 45%;
+}
+.container h1{
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 71px;
+}
+.box{
+    width:none;
+    margin: 22px 0px;
+    border-bottom:2px solid rgb(172, 172, 255);
+}
+.box input{
+    /* text-decoration: white; */
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+    width:75%;
+    padding: 5px 10px;
+    font-size:20px;
+    border:none;
+    outline : none;
+    color : white;
+}
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    cursor:pointer;
+    outline :none;
+    margin:12px 0;
+    padding: 10px 21px;
+    border:2px solid rgb(187, 187, 255);
+    border-radius: 10px;
+    font-size:18px;
+    background:none;
+    font-weight:bold;
+}
+.btn:hover{
+    background: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255),rgb(95, 95, 95));
+    opacity: 0.5; 
+    color:rgb(0, 0, 0);  
+    /* border-color:blue; */
+}
+.user{
+    /* padding-left:116px; */
+     display:flex;
+     justify-content: center;
+     font-size: xxx-large;
+}
